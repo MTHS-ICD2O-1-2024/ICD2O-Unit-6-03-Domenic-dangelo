@@ -33,19 +33,16 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <div class="right-image">
-          <img src="./images/download (1).png" alt="weather icons" />
-        </div>
+        <div class="page-content">Click this to find the current weather around SMT</div>
         <br />
-        <div>Click this to find the current weather around SMT</div>
         <br />
+        <form action="#">
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()"
-          type="button"
-        >
+          onclick="weather()"type="button">
           Show weather
         </button>
+      </form>
         <br />
         <div class="page-content-answer">
           <div id="result"></div>

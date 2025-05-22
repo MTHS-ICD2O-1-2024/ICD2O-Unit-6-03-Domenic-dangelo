@@ -13,18 +13,35 @@
   background: #000;
   opacity: 0.001;
 }
+
 body {
   background-color: rgb(167, 245, 73);
 }
 
-p {
+.page-content {
   color: rgb(0, 0, 0);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 80px;
+  font-size: 30px;
   padding-top: 5pt;
+  text-align: center;
 }
 
 img {
-  float: right;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   height: 350px;
+}
+
+#result {
+  color: rgb(0, 0, 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
